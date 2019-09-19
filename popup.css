@@ -38,25 +38,14 @@ body {
 /*max-width: 15rem;*/
 
 .btn-primary {
-    border-color: #0079b8;
-    background-color: #0079b8;
+    border-color: #2f8400;
+    background-color: #2f8400;
     color: #fff;
 }
 
 .btn-primary .btn:hover, .btn.btn-primary:hover {
-    background-color: #004a70;
+    background-color: #266900;
     color: #e1f1f6;
-}
-
-.btn-regular {
-    border-color: #0079b8;
-    background-color: transparent;
-    color: #0079b8;
-}
-
-.btn-regular .btn:hover, .btn-regular .btn:hover, .btn.btn-regular:hover {
-    background-color: #e1f1f6;
-    color: #004a70;
 }
 
 .btn-success {
