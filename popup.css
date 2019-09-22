@@ -10,6 +10,16 @@ body {
     text-align: right;
 }
 
+.f-right {
+    float: right;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -60,8 +70,45 @@ body {
     color: #1d5100;
 }
 
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-default .btn:hover,
+.btn.btn-default:hover {
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+
+
 
 .block {
     display: block;
     width: 100%;
+}
+
+.input {
+    display: block;
+    width: 94%;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    margin-top: 6px;
+}
+
+.input.new-prop {
+    display: inline-block;
+    width: 84%;
+}
+
+.btn-remove-new-prop {
+    margin: 0 0 0 .25rem;
 }

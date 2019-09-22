@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Copy / Paste - localStorage</title>
+		<title>Storage copier</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="popup.css">
 		<script src="popup.js"></script>
@@ -15,6 +15,15 @@
 			<button id="btn-copy-prop" class="btn btn-primary block">Copy</button>
 			<hr>
 			<button id="btn-paste-prop" class="btn btn-success block">Paste</button>
+			<hr>
+			<div>
+				<span>Storage keys</span>
+				<label class="f-right">
+					<input id="btn-all-storage" type="checkbox" name="checkbox" checked="checked" disabled="disabled">
+					All storage
+				</label>
+				<div id="storage-keys-list"></div>
+			</div>
 		</div>
 	</body>
 </html>
